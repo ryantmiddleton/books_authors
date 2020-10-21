@@ -1,0 +1,51 @@
+* {
+    margin:0px;
+    padding:0px;
+    /* border:1px dotted red; */
+}
+#wrapper div{
+    display:inline-block;
+    vertical-align: top;
+}
+#list_cont{
+    margin-left:400px;
+}
+#add_cont h1{
+    text-align:center;
+}
+#add_cont div{
+    display:inline-block;
+    vertical-align:top;
+}
+
+#add_cont div *{
+    display:block;
+}
+#add_btn{
+    margin-top:15px;
+}
+
+#listtable tr:nth-child(odd){ 
+    background: #adcaf1;
+}
+#listtable tr:nth-child(even){
+    background: #dce9fa;
+}
+
+#display_cont {
+    margin-left:20px;
+}
+
+#display_cont ul{
+    padding-left:15px;
+}
+
+#display_cont #info_cont *{
+    vertical-align: top;
+    display:inline-block;
+}
+
+#display_cont #info_cont p{
+    margin-left:10px;
+    width:350px;;
+}
